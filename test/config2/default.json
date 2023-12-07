@@ -1,0 +1,16 @@
+{
+  "successful_test_1": {
+    "name": "Alan B",
+    "port": 10,
+    "device": {
+      "platform": "android"
+    }
+  },
+  "failing_test_1": {
+    "name": "Alan Turing",
+    "port": 10,
+    "device": {
+      "platform": "enigma"
+    }
+  }
+}

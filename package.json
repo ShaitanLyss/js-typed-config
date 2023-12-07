@@ -1,0 +1,17 @@
+{
+  "name": "js-typed-config",
+  "module": "index.ts",
+  "version": "0.1.0",
+  "type": "module",
+  "devDependencies": {
+    "@types/config": "^3.3.3",
+    "bun-types": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "arktype": "^1.0.28-alpha",
+    "config": "^3.3.9"
+  }
+}

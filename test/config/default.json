@@ -1,0 +1,17 @@
+{
+  "successful_test_1": {
+    "name": "Alan Turing",
+    "port": 10,
+    "device": {
+      "platform": "android",
+      "version": 5
+    }
+  },
+  "failing_test_1": {
+    "name": "Alan Turing",
+    "port": 10,
+    "device": {
+      "platform": "enigma"
+    }
+  }
+}
