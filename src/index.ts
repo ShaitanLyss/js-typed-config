@@ -1,4 +1,4 @@
-import { type, validateDefinition, type Type, PrecompiledDefaults, inferDefinition } from "arktype"
+import { type, validateDefinition, PrecompiledDefaults, inferDefinition } from "arktype"
 import { asOut } from "arktype/internal/scopes/type.js"
 
 
