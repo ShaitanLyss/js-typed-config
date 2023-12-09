@@ -41,5 +41,3 @@ export async function getConfig<T>(params: { domain?: string, schema: validateDe
 
     return validated_config
 }
-
-
