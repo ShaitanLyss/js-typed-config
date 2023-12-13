@@ -1,7 +1,7 @@
 {
   "name": "@selenial/typed-config",
   "module": "dist/src/index.js",
-  "version": "0.1.4",
+  "version": "0.2.0",
   "type": "module",
   "scripts": {
     "prepublish": "tsc"

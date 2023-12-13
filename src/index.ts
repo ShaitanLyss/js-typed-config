@@ -1,6 +1,6 @@
-import { type, validateDefinition, PrecompiledDefaults, inferDefinition } from "arktype"
-import { asOut } from "arktype/internal/scopes/type.js"
-
+import { type, type validateDefinition, type PrecompiledDefaults, type inferDefinition } from "arktype"
+import type { asOut } from "arktype/internal/scopes/type.js"
+import nodeConfig from 'config';
 
 /**
  * ConfigError
@@ -19,10 +19,8 @@ export class ConfigValidationError extends Error {
     }
 }
 
-export async function getConfig<T>(params: { domain?: string, schema: validateDefinition<T, PrecompiledDefaults> }): Promise<asOut<inferDefinition<T, PrecompiledDefaults>>> {
+export function getConfig<T>(params: { domain?: string, schema: validateDefinition<T, PrecompiledDefaults> }): asOut<inferDefinition<T, PrecompiledDefaults>> {
     const domain = params.domain ?? "App";
-    const { default: nodeConfig } = await import("config");
-
 
     const config_type = type(params.schema);
 
